@@ -1,5 +1,5 @@
 package designPattern.strategy;
 
-public abstract class Sorter {
-	public abstract int[] sort(int[] sourceArray);
+public interface Sorter {
+	public int[] sort(int[] sourceArray);
 }
