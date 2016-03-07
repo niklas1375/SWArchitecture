@@ -10,4 +10,8 @@ public class Context {
 	public int[] sortiereElemente(int[] sourceArray){
 		return sorter.sort(sourceArray);
 	}
+	
+	public String getSorter(){
+		return sorter.getClass().getName();
+	}
 }

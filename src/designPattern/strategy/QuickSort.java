@@ -2,12 +2,13 @@ package designPattern.strategy;
 
 import java.util.Arrays;
 
-public class QuickSorter implements SorterIF {
+public class QuickSort implements SorterIF {
 
+	@Override
 	public int[] sort(int[] sourceArray) {
 		int[] targetArray = Arrays.copyOf(sourceArray, sourceArray.length);
 		qSort(targetArray, 0, targetArray.length - 1);
-		return null;
+		return targetArray;
 	}
 
 	public static void qSort(int x[], int links, int rechts) {
