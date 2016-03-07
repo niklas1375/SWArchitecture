@@ -1,5 +1,5 @@
 package designPattern.strategy;
 
-public interface Sorter {
+public interface SorterIF {
 	public int[] sort(int[] sourceArray);
 }
